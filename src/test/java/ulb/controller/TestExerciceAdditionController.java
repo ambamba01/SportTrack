@@ -1,4 +1,4 @@
-package ulb.controller;
+package controller;
 
 public class TestExerciceAdditionController {
 }

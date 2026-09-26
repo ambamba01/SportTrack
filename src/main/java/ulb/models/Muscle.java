@@ -1,6 +1,6 @@
-package ulb.models;
+package models;
 
-import ulb.database.dto.Dto;
+import database.dto.Dto;
 
 import java.util.ArrayList;
 import java.util.List;

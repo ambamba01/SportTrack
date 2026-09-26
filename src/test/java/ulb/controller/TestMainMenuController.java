@@ -1,4 +1,4 @@
-package ulb.controller;
+package controller;
 
 import javafx.stage.Stage;
 import junit.framework.TestCase;
@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ulb.controllers.MainMenuController;
-import ulb.models.User;
+import controllers.MainMenuController;
+import models.User;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;

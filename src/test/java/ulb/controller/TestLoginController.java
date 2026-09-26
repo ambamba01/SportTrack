@@ -1,12 +1,12 @@
-package ulb.controller;
+package controller;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.MockedStatic;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ulb.controllers.LoginController;
-import ulb.database.repository.UserRepository;
-import ulb.exceptions.RepositoryException;
-import ulb.models.User;
-import ulb.utils.Utils;
+import controllers.LoginController;
+import database.repository.UserRepository;
+import exceptions.RepositoryException;
+import models.User;
+import utils.Utils;
 
 import javafx.stage.Stage;
 import org.junit.jupiter.api.BeforeEach;

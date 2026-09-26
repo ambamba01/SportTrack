@@ -1,6 +1,6 @@
-package ulb.utils;
+package utils;
 
-import ulb.exceptions.LogManagerException;
+import exceptions.LogManagerException;
 
 import java.io.IOException;
 import java.util.logging.*;

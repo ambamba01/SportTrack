@@ -1,8 +1,8 @@
-package ulb.database.repository;
+package database.repository;
 
-import ulb.database.dto.Dto;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.RepositoryException;
+import database.dto.Dto;
+import exceptions.AlreadyExistException;
+import exceptions.RepositoryException;
 
 import java.util.List;
 

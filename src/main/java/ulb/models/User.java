@@ -1,7 +1,7 @@
-package ulb.models;
+package models;
 
-import ulb.database.dto.Dto;
-import ulb.utils.LogManager;
+import database.dto.Dto;
+import utils.LogManager;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

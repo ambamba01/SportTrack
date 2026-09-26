@@ -1,9 +1,9 @@
-package ulb.database.repository;
+package database.repository;
 
-import ulb.database.dao.UserDao;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.User;
+import database.dao.UserDao;
+import exceptions.AlreadyExistException;
+import exceptions.RepositoryException;
+import models.User;
 
 import java.util.List;
 

@@ -1,16 +1,16 @@
-package ulb.controllers;
+package controllers;
 
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import ulb.database.repository.UserRepository;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.FXMLException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.User;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
-import ulb.views.FXMLController;
-import ulb.views.MyProfileFxController;
+import database.repository.UserRepository;
+import exceptions.AlreadyExistException;
+import exceptions.FXMLException;
+import exceptions.RepositoryException;
+import models.User;
+import utils.LogManager;
+import utils.Utils;
+import views.FXMLController;
+import views.MyProfileFxController;
 
 import java.util.logging.Level;
 

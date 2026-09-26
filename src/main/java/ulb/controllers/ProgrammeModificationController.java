@@ -1,21 +1,21 @@
-package ulb.controllers;
+package controllers;
 
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import ulb.database.repository.ExerciseProgrammeRepository;
-import ulb.database.repository.ExerciseRepository;
-import ulb.database.repository.ProgrammeRepository;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.FXMLException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.ExerciseProgramme;
-import ulb.models.Programme;
-import ulb.models.User;
-import ulb.views.FxUtils;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
-import ulb.views.ProgrammeAdditionFxController;
+import database.repository.ExerciseProgrammeRepository;
+import database.repository.ExerciseRepository;
+import database.repository.ProgrammeRepository;
+import exceptions.AlreadyExistException;
+import exceptions.FXMLException;
+import exceptions.RepositoryException;
+import models.ExerciseProgramme;
+import models.Programme;
+import models.User;
+import views.FxUtils;
+import utils.LogManager;
+import utils.Utils;
+import views.ProgrammeAdditionFxController;
 
 import java.util.ArrayList;
 import java.util.List;

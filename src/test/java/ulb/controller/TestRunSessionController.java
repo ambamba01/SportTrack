@@ -1,4 +1,4 @@
-package ulb.controller;
+package controller;
 
 import javafx.stage.Stage;
 import junit.framework.TestCase;
@@ -6,8 +6,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.api.Test;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ulb.controllers.RunSessionController;
-import ulb.models.Session;
+import controllers.RunSessionController;
+import models.Session;
 
 import static org.mockito.Mockito.*;
 

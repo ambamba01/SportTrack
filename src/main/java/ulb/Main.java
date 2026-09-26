@@ -1,13 +1,13 @@
-package ulb;
+
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import ulb.controllers.Presenter;
-import ulb.exceptions.ConfigManagerException;
-import ulb.exceptions.LogManagerException;
-import ulb.utils.ConfigManager;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
+import controllers.Presenter;
+import exceptions.ConfigManagerException;
+import exceptions.LogManagerException;
+import utils.ConfigManager;
+import utils.LogManager;
+import utils.Utils;
 
 import java.util.logging.Level;
 

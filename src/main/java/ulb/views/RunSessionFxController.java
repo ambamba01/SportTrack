@@ -1,4 +1,4 @@
-package ulb.views;
+package views;
 
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

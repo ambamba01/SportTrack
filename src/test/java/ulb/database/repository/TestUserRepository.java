@@ -1,4 +1,4 @@
-package ulb.database.repository;
+package database.repository;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -7,9 +7,9 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ulb.database.dao.UserDao;
-import ulb.exceptions.RepositoryException;
-import ulb.models.User;
+import database.dao.UserDao;
+import exceptions.RepositoryException;
+import models.User;
 
 import java.util.ArrayList;
 import java.util.List;

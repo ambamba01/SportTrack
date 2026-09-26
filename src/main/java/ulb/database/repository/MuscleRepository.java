@@ -1,9 +1,9 @@
-package ulb.database.repository;
+package database.repository;
 
-import ulb.database.dao.MuscleDao;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.Muscle;
+import database.dao.MuscleDao;
+import exceptions.AlreadyExistException;
+import exceptions.RepositoryException;
+import models.Muscle;
 
 import java.util.List;
 

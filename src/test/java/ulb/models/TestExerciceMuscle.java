@@ -1,4 +1,4 @@
-package ulb.models;
+package models;
 
 import junit.framework.TestCase;
 import org.junit.jupiter.api.Test;

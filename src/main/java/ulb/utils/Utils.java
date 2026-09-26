@@ -1,4 +1,4 @@
-package ulb.utils;
+package utils;
 
 import javax.swing.*;
 

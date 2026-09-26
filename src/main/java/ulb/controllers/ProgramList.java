@@ -1,13 +1,13 @@
-package ulb.controllers;
+package controllers;
 
-import ulb.database.repository.ProgrammeRepository;
-import ulb.exceptions.RepositoryException;
-import ulb.models.Programme;
-import ulb.models.User;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
-import ulb.views.FXMLController;
-import ulb.views.FxUtils;
+import database.repository.ProgrammeRepository;
+import exceptions.RepositoryException;
+import models.Programme;
+import models.User;
+import utils.LogManager;
+import utils.Utils;
+import views.FXMLController;
+import views.FxUtils;
 
 import java.util.ArrayList;
 import java.util.List;

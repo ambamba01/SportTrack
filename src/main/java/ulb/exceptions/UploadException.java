@@ -1,4 +1,4 @@
-package ulb.exceptions;
+package exceptions;
 
 public class UploadException extends Exception {
 

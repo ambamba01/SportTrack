@@ -1,4 +1,4 @@
-package ulb.controller;
+package controller;
 
 import javafx.stage.Stage;
 import junit.framework.TestCase;
@@ -7,12 +7,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.MockedStatic;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ulb.controllers.RegistrationController;
-import ulb.database.repository.UserRepository;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.User;
-import ulb.utils.Utils;
+import controllers.RegistrationController;
+import database.repository.UserRepository;
+import exceptions.AlreadyExistException;
+import exceptions.RepositoryException;
+import models.User;
+import utils.Utils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

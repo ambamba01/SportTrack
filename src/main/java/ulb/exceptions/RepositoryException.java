@@ -1,4 +1,4 @@
-package ulb.exceptions;
+package exceptions;
 
 /**
  * Special class to be able to hand exception that might come from repository.

@@ -1,4 +1,4 @@
-package ulb.views;
+package views;
 
 import javafx.scene.control.Button;
 import javafx.scene.paint.Color;

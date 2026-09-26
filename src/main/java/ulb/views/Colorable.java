@@ -1,4 +1,4 @@
-package ulb.views;
+package views;
 
 public interface Colorable {
     /**

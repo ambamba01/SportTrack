@@ -1,5 +1,5 @@
 // Package declaration indicating the location of this file within the project structure.
-package ulb.controllers;
+package controllers;
 
 // Import statements importing necessary JavaFX, model, dto, repository, and view classes. yes
 
@@ -7,16 +7,16 @@ import java.util.logging.Level;
 
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import ulb.database.repository.ExerciseRepository;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.FXMLException;
-import ulb.exceptions.RepositoryException;
-import ulb.exceptions.UploadException;
-import ulb.models.Exercise;
-import ulb.models.User;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
-import ulb.views.ExerciseAdditionFxController;
+import database.repository.ExerciseRepository;
+import exceptions.AlreadyExistException;
+import exceptions.FXMLException;
+import exceptions.RepositoryException;
+import exceptions.UploadException;
+import models.Exercise;
+import models.User;
+import utils.LogManager;
+import utils.Utils;
+import views.ExerciseAdditionFxController;
 
 /**
  * Controller class for handling the addition of exercises in the UI.

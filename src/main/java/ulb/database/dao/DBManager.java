@@ -1,7 +1,7 @@
-package ulb.database.dao;
+package database.dao;
 
-import ulb.exceptions.RepositoryException;
-import ulb.utils.ConfigManager;
+import exceptions.RepositoryException;
+import utils.ConfigManager;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package ulb.controller;
+package controller;
 
 import javafx.stage.Stage;
 import org.junit.jupiter.api.BeforeEach;
@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
-import ulb.controllers.ProgrammeController;
-import ulb.database.repository.ProgrammeRepository;
-import ulb.models.User;
+import controllers.ProgrammeController;
+import database.repository.ProgrammeRepository;
+import models.User;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)

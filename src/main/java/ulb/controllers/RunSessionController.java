@@ -1,12 +1,12 @@
-package ulb.controllers;
+package controllers;
 
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import ulb.exceptions.FXMLException;
-import ulb.models.Session;
-import ulb.models.User;
-import ulb.views.FXMLController;
-import ulb.views.RunSessionFxController;
+import exceptions.FXMLException;
+import models.Session;
+import models.User;
+import views.FXMLController;
+import views.RunSessionFxController;
 
 /**
  * This class passes the information of object Session (provided by the model) about the current exercise( its image,

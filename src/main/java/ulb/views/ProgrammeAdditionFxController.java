@@ -1,4 +1,4 @@
-package ulb.views;
+package views;
 
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

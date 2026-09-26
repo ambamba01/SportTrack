@@ -1,11 +1,11 @@
-package ulb.controllers;
+package controllers;
 
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import ulb.exceptions.FXMLException;
-import ulb.models.User;
-import ulb.views.FXMLController;
-import ulb.views.MainMenuFxController;
+import exceptions.FXMLException;
+import models.User;
+import views.FXMLController;
+import views.MainMenuFxController;
 
 /**
  * Controller for handling the main menu actions within the application.

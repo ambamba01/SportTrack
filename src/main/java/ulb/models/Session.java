@@ -1,4 +1,4 @@
-package ulb.models;
+package models;
 
 import java.util.List;
 

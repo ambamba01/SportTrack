@@ -1,6 +1,6 @@
-package ulb.models;
+package models;
 
-import ulb.database.dto.Dto;
+import database.dto.Dto;
 
 /**
  * This class represents the model of exerciseProgram object.

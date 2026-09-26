@@ -1,4 +1,4 @@
-package ulb.views;
+package views;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -6,7 +6,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.shape.SVGPath;
 import javafx.stage.FileChooser;
-import ulb.exceptions.UploadException;
+import exceptions.UploadException;
 
 import java.io.File;
 import java.io.FileInputStream;

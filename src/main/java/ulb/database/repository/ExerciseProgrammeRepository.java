@@ -1,8 +1,8 @@
-package ulb.database.repository;
+package database.repository;
 
-import ulb.database.dao.ExerciseProgrammeDao;
-import ulb.exceptions.RepositoryException;
-import ulb.models.ExerciseProgramme;
+import database.dao.ExerciseProgrammeDao;
+import exceptions.RepositoryException;
+import models.ExerciseProgramme;
 
 import java.util.List;
 

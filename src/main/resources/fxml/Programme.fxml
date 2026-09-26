@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="729.0" style="-fx-background-color: #E2FAD8;" styleClass="container" stylesheets="@../styles/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.views.ProgrammeFxController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="729.0" style="-fx-background-color: #E2FAD8;" styleClass="container" stylesheets="@../styles/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.ProgrammeFxController">
     <children>
       <AnchorPane fx:id="parent" prefHeight="470.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css">
          <children>

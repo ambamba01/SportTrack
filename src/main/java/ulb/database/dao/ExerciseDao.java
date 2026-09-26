@@ -1,9 +1,9 @@
-package ulb.database.dao;
+package database.dao;
 
 import org.sqlite.SQLiteErrorCode;
-import ulb.exceptions.AlreadyExistException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.Exercise;
+import exceptions.AlreadyExistException;
+import exceptions.RepositoryException;
+import models.Exercise;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

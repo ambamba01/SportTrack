@@ -1,13 +1,13 @@
-package ulb.controllers;
+package controllers;
 
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
-import ulb.exceptions.FXMLException;
-import ulb.models.Exercise;
-import ulb.models.Programme;
-import ulb.models.Session;
-import ulb.models.User;
-import ulb.utils.LogManager;
+import exceptions.FXMLException;
+import models.Exercise;
+import models.Programme;
+import models.Session;
+import models.User;
+import utils.LogManager;
 
 import java.util.Objects;
 import java.util.logging.Level;

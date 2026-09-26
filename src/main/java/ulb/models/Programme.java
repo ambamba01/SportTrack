@@ -1,7 +1,7 @@
-package ulb.models;
+package models;
 
 import javafx.collections.ObservableList;
-import ulb.database.dto.Dto;
+import database.dto.Dto;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,17 +1,17 @@
-package ulb.controllers;
+package controllers;
 
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import ulb.database.repository.ExerciseRepository;
-import ulb.exceptions.FXMLException;
-import ulb.exceptions.RepositoryException;
-import ulb.models.Exercise;
-import ulb.models.User;
-import ulb.views.FXMLController;
-import ulb.views.FxUtils;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
-import ulb.views.ExerciseListFxController;
+import database.repository.ExerciseRepository;
+import exceptions.FXMLException;
+import exceptions.RepositoryException;
+import models.Exercise;
+import models.User;
+import views.FXMLController;
+import views.FxUtils;
+import utils.LogManager;
+import utils.Utils;
+import views.ExerciseListFxController;
 
 import java.util.ArrayList;
 import java.util.List;

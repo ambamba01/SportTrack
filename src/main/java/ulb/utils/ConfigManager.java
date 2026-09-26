@@ -1,6 +1,6 @@
-package ulb.utils;
+package utils;
 
-import ulb.exceptions.ConfigManagerException;
+import exceptions.ConfigManagerException;
 
 import java.io.IOException;
 import java.io.InputStream;

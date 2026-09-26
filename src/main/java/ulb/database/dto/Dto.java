@@ -1,4 +1,4 @@
-package ulb.database.dto;
+package database.dto;
 
 import java.util.Objects;
 

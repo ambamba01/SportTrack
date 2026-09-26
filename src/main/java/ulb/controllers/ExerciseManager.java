@@ -1,16 +1,16 @@
-package ulb.controllers;
+package controllers;
 
-import ulb.database.repository.ExerciseMuscleRepository;
-import ulb.database.repository.MuscleRepository;
-import ulb.exceptions.RepositoryException;
-import ulb.models.Exercise;
-import ulb.models.ExerciseMuscle;
-import ulb.models.Muscle;
-import ulb.models.User;
-import ulb.utils.LogManager;
-import ulb.utils.Utils;
-import ulb.views.ExerciseAdditionFxController;
-import ulb.views.FXMLController;
+import database.repository.ExerciseMuscleRepository;
+import database.repository.MuscleRepository;
+import exceptions.RepositoryException;
+import models.Exercise;
+import models.ExerciseMuscle;
+import models.Muscle;
+import models.User;
+import utils.LogManager;
+import utils.Utils;
+import views.ExerciseAdditionFxController;
+import views.FXMLController;
 
 import java.util.ArrayList;
 import java.util.List;

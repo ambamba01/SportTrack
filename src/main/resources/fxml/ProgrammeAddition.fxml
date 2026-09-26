@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="857.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.views.ProgrammeAdditionFxController">
+    <children>
+        <AnchorPane fx:id="parent" prefHeight="500.0" prefWidth="857.0" style="-fx-background-color: #E2FAD8;" styleClass="container" stylesheets="@../styles/lightMode.css">
+            <children>
+                <VBox prefHeight="500.0" prefWidth="857.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+                    <children>
+                        <AnchorPane maxWidth="900.0" prefHeight="66.0" prefWidth="900.0">
+                            <children>
+                                <Label fx:id="Title" alignment="CENTER" contentDisplay="TOP" layoutX="124.0" layoutY="7.0" prefHeight="53.0" prefWidth="610.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%programTitle" textAlignment="CENTER" textFill="#5f634f">
+                                    <font>
+                                        <Font name="System Bold" size="36.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="goBack" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="%backButton" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="13.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                        <HBox alignment="CENTER" prefHeight="239.0" prefWidth="857.0">
+                            <children>
+                                <VBox alignment="CENTER_LEFT" prefHeight="321.0" prefWidth="210.0">
+                                    <children>
+                                        <Label prefHeight="33.0" prefWidth="158.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%nameLabel" textAlignment="CENTER" textFill="#5f634f">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Label>
+                              <TextField fx:id="programmeName" promptText="%programNamePrompt" />
+                                        <Label prefHeight="33.0" prefWidth="152.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%descriptionLabel" textFill="#5f634f">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                        </Label>
+                              <TextArea fx:id="programmeDescription" prefHeight="79.0" prefWidth="210.0" promptText="%programDescriptionPrompt" />
+                                        <Label prefHeight="19.0" prefWidth="184.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%difficultyLabel" textFill="#5f634f">
+                                            <font>
+                                                <Font name="System Bold" size="13.0" />
+                                            </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                        </Label>
+                                        <HBox prefHeight="46.0" prefWidth="350.0" spacing="10.0">
+                                            <children>
+                                                <Button fx:id="starButton1" minHeight="20" minWidth="20.0" style="-fx-background-color: none;">
+                                                    <graphic>
+                                                        <SVGPath fx:id="starButtonSVG1" content="M26.934,1.318 L35.256,18.182 L53.867,20.887 L40.4,34.013 L43.579,52.549 L26.934,43.798  10.288,52.549 13.467,34.013 0,20.887 18.611,18.182 Z" fill="#EFCE4A" />
+                                                    </graphic>
+                                       <HBox.margin>
+                                          <Insets top="10.0" />
+                                       </HBox.margin>
+                                                </Button>
+                                                <Button fx:id="starButton2" minHeight="20" minWidth="20" style="-fx-background-color: none;">
+                                                    <graphic>
+                                                        <SVGPath fx:id="starButtonSVG2" content="M26.934,1.318 L35.256,18.182 L53.867,20.887 L40.4,34.013 L43.579,52.549 L26.934,43.798  10.288,52.549 13.467,34.013 0,20.887 18.611,18.182 Z" fill="#d6d6cd" />
+                                                    </graphic>
+                                       <HBox.margin>
+                                          <Insets left="15.0" top="10.0" />
+                                       </HBox.margin>
+                                                </Button>
+                                                <Button fx:id="starButton3" minHeight="20" minWidth="20" style="-fx-background-color: none;">
+                                                    <graphic>
+                                                        <SVGPath fx:id="starButtonSVG3" content="M26.934,1.318 L35.256,18.182 L53.867,20.887 L40.4,34.013 L43.579,52.549 L26.934,43.798  10.288,52.549 13.467,34.013 0,20.887 18.611,18.182 Z" fill="#d6d6cd" strokeMiterLimit="1.0" />
+                                                    </graphic>
+                                       <HBox.margin>
+                                          <Insets left="15.0" top="10.0" />
+                                       </HBox.margin>
+                                                </Button>
+                                                <Button fx:id="starButton4" minHeight="20" minWidth="20" style="-fx-background-color: none;">
+                                                    <graphic>
+                                                        <SVGPath fx:id="starButtonSVG4" content="M26.934,1.318 L35.256,18.182 L53.867,20.887 L40.4,34.013 L43.579,52.549 L26.934,43.798  10.288,52.549 13.467,34.013 0,20.887 18.611,18.182 Z" fill="#d6d6cd" />
+                                                    </graphic>
+                                       <HBox.margin>
+                                          <Insets left="15.0" top="10.0" />
+                                       </HBox.margin>
+                                                </Button>
+                                                <Button fx:id="starButton5" minHeight="20" minWidth="20" style="-fx-background-color: none;">
+                                                    <graphic>
+                                                        <SVGPath fx:id="starButtonSVG5" content="M26.934,1.318 L35.256,18.182 L53.867,20.887 L40.4,34.013 L43.579,52.549 L26.934,43.798  10.288,52.549 13.467,34.013 0,20.887 18.611,18.182 Z" fill="#d6d6cd" />
+                                                    </graphic>
+                                       <HBox.margin>
+                                          <Insets left="15.0" top="10.0" />
+                                       </HBox.margin>
+                                                </Button>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                           <HBox.margin>
+                              <Insets right="25.0" />
+                           </HBox.margin>
+                                </VBox>
+                                <VBox alignment="BOTTOM_LEFT" prefHeight="239.0" prefWidth="200.0">
+                           <children>
+                              <ListView fx:id="programmeList" prefHeight="275.0" prefWidth="200.0">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin></ListView>
+                           </children></VBox>
+                        <VBox maxWidth="300.0" prefHeight="307.0" prefWidth="357.0">
+                           <children>
+                              <Label prefHeight="19.0" prefWidth="271.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%filterSettingsLabel" textFill="#5f634f">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <HBox maxWidth="300.0" prefHeight="100.0" prefWidth="300.0">
+                                 <children>
+                                    <RadioButton fx:id="radioExercisesType" mnemonicParsing="false" text="%exerciseTypeRadio" textFill="#5f634f">
+                                       <font>
+                                          <Font name="System Bold Italic" size="11.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets bottom="10.0" right="5.0" />
+                                       </HBox.margin>
+                                    </RadioButton>
+                                    <RadioButton fx:id="radioExercisesDifficulty" mnemonicParsing="false" text="%difficultyLabel" textFill="#5f634f">
+                                       <font>
+                                          <Font name="System Bold" size="11.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets right="5.0" />
+                                       </HBox.margin>
+                                    </RadioButton>
+                                    <RadioButton fx:id="radioMuscles" mnemonicParsing="false" text="%muscleLabel" textFill="#5f634f">
+                                       <font>
+                                          <Font name="System Bold Italic" size="11.0" />
+                                       </font>
+                                    </RadioButton>
+                                 </children>
+                              </HBox>
+                              <HBox prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <ComboBox fx:id="FilterList" prefWidth="150.0" promptText="%exerciseFilterPrompt" stylesheets="@../styles/lightMode.css">
+                                       <HBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </HBox.margin>
+                                    </ComboBox>
+                                 </children>
+                              </HBox>
+                              <Label prefHeight="19.0" prefWidth="225.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%exercisesListLabel" textFill="#5f634f">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <ComboBox fx:id="exercisesList" prefWidth="150.0" promptText="%exerciseListPrompt" stylesheets="@../styles/lightMode.css">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                              </ComboBox>
+                               <HBox prefHeight="100.0" prefWidth="200.0" />
+                               <Label prefHeight="19.0" prefWidth="202.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%pauseTypeLabel" textFill="#5f634f">
+                                   <VBox.margin>
+                                       <Insets bottom="5.0" />
+                                   </VBox.margin>
+                                   <font>
+                                       <Font name="System Bold" size="13.0" />
+                                   </font>
+                               </Label>
+                               <HBox maxWidth="300.0" prefHeight="100.0" prefWidth="300.0">
+                                   <children>
+                                       <RadioButton fx:id="radioPauseCool" mnemonicParsing="false" text="%coolPauseRadio" textFill="#5f634f">
+                                           <font>
+                                               <Font name="System Bold Italic" size="11.0" />
+                                           </font>
+                                           <HBox.margin>
+                                               <Insets bottom="10.0" right="5.0" />
+                                           </HBox.margin>
+                                       </RadioButton>
+                                       <RadioButton fx:id="radioPauseNormal" mnemonicParsing="false" text="%normalPauseRadio" textFill="#5f634f">
+                                           <font>
+                                               <Font name="System Bold" size="11.0" />
+                                           </font>
+                                           <HBox.margin>
+                                               <Insets right="5.0" />
+                                           </HBox.margin>
+                                       </RadioButton>
+                                       <RadioButton fx:id="radioPauseIntense" mnemonicParsing="false" text="%intensePauseRadio" textFill="#5f634f">
+                                           <font>
+                                               <Font name="System Bold Italic" size="11.0" />
+                                           </font>
+                                       </RadioButton>
+                                   </children>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                               </HBox>
+                              <Label prefHeight="19.0" prefWidth="175.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%repsLabel" textFill="#5f634f">
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                                  <font>
+                                      <Font name="System Bold" size="13.0" />
+                                  </font></Label>
+                              <TextField fx:id="nbRepetition" promptText="%repsPrompt" stylesheets="@../styles/lightMode.css" />
+                              <Button fx:id="addExercise" mnemonicParsing="false" prefHeight="26.0" prefWidth="119.0" text="%addExercise" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                              </Button>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="25.0" />
+                           </HBox.margin></VBox>
+                            </children>
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                        </HBox>
+                        <AnchorPane prefHeight="98.0" prefWidth="854.0" VBox.vgrow="ALWAYS">
+                            <children>
+                        <Button fx:id="removeExercise" layoutX="283.0" layoutY="5.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="30.0" text="-" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="addProgramme" layoutX="270.0" layoutY="52.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="228.0" text="%addProgram" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+            
+                                              </children>
+                        </AnchorPane>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

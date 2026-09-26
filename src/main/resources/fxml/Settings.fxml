@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="857.0" style="-fx-background-color: #E2FAD8;" styleClass="container" stylesheets="@../styles/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.views.SettingsFxController">
+<children>
+    <AnchorPane fx:id="parent" prefHeight="500.0" prefWidth="857.0" style="-fx-background-color: #E2FAD8;" styleClass="container" stylesheets="@../styles/lightMode.css">
+        <children>
+            <VBox prefHeight="500.0" prefWidth="857.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+                <children>
+                    <AnchorPane maxWidth="900.0" prefHeight="66.0" prefWidth="900.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+                        <children>
+                            <Label fx:id="Title" alignment="CENTER" contentDisplay="TOP" layoutX="124.0" layoutY="7.0" prefHeight="53.0" prefWidth="610.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%settingsLabel" textAlignment="CENTER" textFill="#5f634f">
+                                <font>
+                                    <Font name="System Bold" size="36.0" />
+                                </font>
+                            </Label>
+                        <Button fx:id="goBack" layoutX="14.0" layoutY="24.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="%backButton" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        </children>
+                    </AnchorPane>
+                    <HBox alignment="CENTER" prefHeight="384.0" prefWidth="857.0" spacing="50.0" styleClass="container">
+                        <children>
+                            <VBox maxWidth="300.0" prefHeight="280.0" prefWidth="300.0">
+                                <children>
+                                    <Label styleClass="labels" stylesheets="@../styles/lightMode.css" text="%visualizationLabel" textFill="#5f634f">
+                                        <VBox.margin>
+                                            <Insets bottom="10.0" />
+                                        </VBox.margin>
+                                        <font>
+                                            <Font name="System Bold" size="13.0" />
+                                        </font>
+                                    </Label>
+                              <Button fx:id="visualizationMode" mnemonicParsing="false" prefWidth="326.0" stylesheets="@../styles/lightMode.css" text="%visualizationButton" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Label styleClass="labels" stylesheets="@../styles/lightMode.css" text="%languageLabel" textFill="#5f634f">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <ChoiceBox fx:id="LanguageChoice" prefWidth="150.0" styleClass="choiceBox" stylesheets="@../styles/lightMode.css">
+                                 <VBox.margin>
+                                    <Insets top="5.0" />
+                                 </VBox.margin>
+                              </ChoiceBox>
+                              <Label styleClass="labels" stylesheets="@../styles/lightMode.css" text="%measurementUnitsLabel" textFill="#5f634f">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                                    <Button fx:id="lengthUnitChosen" stylesheets="@../styles/lightMode.css" mnemonicParsing="false" prefWidth="326.0" styleClass="txtButton" text="Mètre" textAlignment="CENTER" textFill="WHITE">
+                                        <font>
+                                            <Font name="System Bold" size="13.0" />
+                                        </font>
+                                    </Button>
+                                    <Button fx:id="weightUnitChosen" stylesheets="@../styles/lightMode.css" mnemonicParsing="false" prefWidth="326.0" styleClass="txtButton" text="Kilogramme" textAlignment="CENTER" textFill="WHITE">
+                                        <font>
+                                            <Font name="System Bold" size="13.0" />
+                                        </font>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                    </Button>
+                                </children></VBox>
+                        </children>
+                        <VBox.margin>
+                            <Insets />
+                        </VBox.margin>
+                    </HBox>
+                </children>
+            </VBox>
+        </children>
+    </AnchorPane>
+</children>
+</VBox>

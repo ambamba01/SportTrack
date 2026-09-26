@@ -1,0 +1,161 @@
+.container{
+    -fx-background-color: #0B2447;
+}
+
+.labels{
+    -fx-text-fill: #A5D7E8;
+    -fx-effect: dropshadow(three-pass-box, rgb(6, 17, 35), 5, 0, 0, 0);
+}
+
+.choice-box{
+    -fx-background-color: #19376D;
+    -fx-text-fill: white;
+}
+
+.choice-box .label{
+    -fx-text-fill: white;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #19376D;
+}
+
+.choice-box .menu-item:focused{
+    -fx-background-color: #526991;
+    -fx-font-weight: bold;
+}
+
+.combo-box{
+    -fx-background-color: #19376D;
+
+}
+.combo-box .label{
+    -fx-text-fill: white;
+}
+
+.combo-box .text-field, .combo-box .list-view{
+    -fx-border-color: transparent;
+}
+
+.combo-box .list-view .list-cell{
+    -fx-background-color: #19376D;
+}
+
+.combo-box .list-view .list-cell:hover{
+    -fx-background-color: #526991;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.combo-box .context-menu {
+    -fx-background-color: #19376D;
+}
+
+.combo-box .menu-item:focused{
+    -fx-background-color: #526991;
+}
+
+.button{
+    -fx-background-color: #19376D;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: white;
+    -fx-text-fill: #19376D;
+    -fx-effect: dropshadow(three-pass-box, rgb(6, 17, 35), 5, 0, 0, 0);
+}
+
+
+
+.radio-button{
+    -fx-text-fill: #A5D7E8;
+}
+
+.radio-button .radio{
+    -fx-background-color: #A5D7E8;
+    -fx-background-insets: 0;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: #19376D;
+    -fx-background-insets: 0;
+}
+.text-field{
+    -fx-background-color: #19376D;
+    -fx-border-color: transparent transparent #A5D7E8 transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+}
+
+.text-area{
+    -fx-focus-color: transparent;
+    -fx-text-box-border: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+}
+
+.text-area .content{
+    -fx-background-color: #19376D;
+    -fx-border-color: transparent transparent #A5D7E8 transparent;
+}
+
+.line{
+    -fx-stroke: #A5D7E8;
+}
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #576CBC;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #A5D7E8;
+    -fx-text-fill: white;
+}
+
+.chart{
+    -fx-background-color: #A5D7E8;
+}
+.table-view{
+    -fx-background-color: #A5D7E8;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #A5D7E8;
+}
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #0B2447;
+    -fx-effect: null;
+}
+.list-view{
+    -fx-border-color: #A5D7E8;
+    -fx-background-color: #19376D;
+    -fx-text-fill: #A5D7E8;
+}
+
+.list-view .list-cell:even{
+    -fx-background-color: #19376D;
+    -fx-text-fill: #A5D7E8;
+}
+
+.list-view .list-cell:odd{
+    -fx-background-color: #526991;
+    -fx-text-fill: #A5D7E8;
+}
+
+.list-view .list-cell:hover{
+    -fx-background-color: #FFFF8F;
+    -fx-text-fill: #504077;
+    -fx-font-weight: bold;
+}
+

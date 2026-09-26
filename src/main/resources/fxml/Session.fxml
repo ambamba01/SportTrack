@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="386.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.views.SessionFxController">
+    <children>
+      <AnchorPane fx:id="parent" prefHeight="386.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+         <children>
+                <VBox prefHeight="386.0" prefWidth="729.0">
+                    <children>
+                        <AnchorPane prefHeight="66.0" prefWidth="729.0">
+                            <children>
+                                <Button fx:id="goBack" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="84.0" text="Back" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="13.0" />
+                                    </font>
+                                </Button>
+                                <Label alignment="CENTER" contentDisplay="TOP" layoutX="177.0" layoutY="7.0" prefHeight="53.0" prefWidth="398.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%sessionLabel" textAlignment="CENTER" textFill="#5f634f">
+                                    <font>
+                                        <Font name="System Bold" size="36.0"/>
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <HBox alignment="CENTER" prefHeight="239.0" prefWidth="491.0" spacing="50.0">
+                            <children>
+                                <VBox alignment="CENTER_LEFT" prefHeight="321.0" prefWidth="270.0">
+                                    <children>
+                                        <Label prefHeight="33.0" prefWidth="241.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%selectProgramLabel" textAlignment="CENTER" textFill="#5f634f">
+                                            <font>
+                                                <Font name="System Bold" size="13.0"/>
+                                            </font>
+                                        </Label>
+                                        <ListView fx:id="listViewProg" prefHeight="200.0" prefWidth="200.0"/>
+                                    </children>
+                                </VBox>
+                                <VBox prefHeight="83.0" prefWidth="215.0">
+                                    <children>
+                                        <Label prefHeight="33.0" prefWidth="67.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%typeLabel" textFill="#5f634f">
+                                            <font>
+                                                <Font name="System Bold" size="13.0"/>
+                                            </font>
+                                        </Label>
+                                        <ChoiceBox id="exerciseType" fx:id="exerciseType" prefWidth="150.0">
+                                            <VBox.margin>
+                                                <Insets bottom="20.0"/>
+                                            </VBox.margin>
+                                        </ChoiceBox>
+                                        <Label fx:id="imagePath" alignment="BOTTOM_LEFT" prefHeight="25.0"
+                                               prefWidth="214.0">
+                                            <VBox.margin>
+                                                <Insets top="5.0"/>
+                                            </VBox.margin>
+                                        </Label>
+                                        <Label layoutX="10.0" layoutY="10.0" prefHeight="33.0" prefWidth="187.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%selectedProgramLabel" textFill="#5f634f">
+                                            <font>
+                                                <Font name="System Bold" size="13.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="selectedProg" layoutX="10.0" layoutY="117.0" prefHeight="33.0" prefWidth="187.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%selected" textFill="#5d614e51">
+                                            <font>
+                                                <Font name="System Bold" size="13.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </VBox>
+                            </children>
+                            <VBox.margin>
+                                <Insets/>
+                            </VBox.margin>
+                        </HBox>
+                        <AnchorPane prefHeight="61.0" prefWidth="729.0">
+                     <children>
+                        <Button fx:id="runSession" layoutX="131.0" layoutY="15.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="400.0" text="%startButton" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                        </AnchorPane>
+                    </children>
+                </VBox>
+         </children>
+      </AnchorPane>
+    </children>
+</VBox>

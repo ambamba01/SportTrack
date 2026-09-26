@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.views.MainMenuFxController">
+    <children>
+        <AnchorPane fx:id="parent" prefHeight="470.0" prefWidth="729.0" style="-fx-background-color: #E2FAD8;" styleClass="container" stylesheets="@../styles/lightMode.css">
+            <children>
+                <VBox prefHeight="470.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+                    <children>
+                        <AnchorPane prefHeight="66.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+                            <children>
+                                <Label alignment="CENTER" contentDisplay="TOP" layoutX="194.0" layoutY="7.0" prefHeight="53.0" prefWidth="342.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%mainMenuLabel" textAlignment="CENTER" textFill="#5f634f">
+                                    <font>
+                                        <Font name="System Bold" size="36.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="userName" layoutX="29.0" layoutY="20.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="User" textFill="#5f634f">
+                                   <font>
+                                      <Font name="System Bold" size="18.0" />
+                                   </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="98.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox alignment="TOP_CENTER" layoutX="15.0" layoutY="29.0" prefHeight="346.0" prefWidth="699.0" spacing="20" styleClass="container" stylesheets="@../styles/lightMode.css">
+                           <children>
+                              <Button fx:id="createSession" minHeight="31.0" minWidth="326.0" mnemonicParsing="false" text="%runSessionButton" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="addExercice" minHeight="31.0" minWidth="326.0" mnemonicParsing="false" text="%exerciseButton" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="showProgramme" minHeight="31.0" minWidth="326.0" mnemonicParsing="false" text="%programButton" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="profileModify" minHeight="31.0" minWidth="326.0" mnemonicParsing="false" text="%editProfile" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="SettingsButton" minHeight="31.0" minWidth="326.0" mnemonicParsing="false" text="%settingsLabel" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="disconnect" minHeight="31.0" minWidth="326.0" mnemonicParsing="false" text="%signOut" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                     </children></AnchorPane>
+                    </children>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

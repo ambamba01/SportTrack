@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="470.0" prefWidth="729.0" stylesheets="@../styles/lightMode.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ulb.views.MyProfileFxController">
+   <children>
+      <AnchorPane fx:id="parent" prefHeight="470.0" prefWidth="729.0" styleClass="container" stylesheets="@../styles/lightMode.css">
+         <children>
+            <Label alignment="CENTER" contentDisplay="TOP" prefHeight="53.0" prefWidth="428.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%myProfile" textAlignment="CENTER" textFill="#5f634f">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="45.0" layoutY="60.0" prefHeight="380.0" prefWidth="290.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="689.0" minWidth="10.0" prefWidth="350.0" />
+                  <ColumnConstraints maxWidth="360.0" minWidth="10.0" prefWidth="360.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Label id="Label" prefHeight="30.0" prefWidth="232.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%lastNameLabel" textFill="#5f634f">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="name" minWidth="200.0" prefHeight="28.0" promptText="%lastNamePrompt" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label id="Label" prefHeight="30.0" prefWidth="189.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%firstNameLabel" textFill="#5f634f" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="firstName" minWidth="200.0" promptText="%firstNamePrompt" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label id="Label" prefHeight="30.0" prefWidth="187.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%mailLabel" textFill="#5f634f" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <TextField fx:id="email" minWidth="200.0" promptText="%mailPrompt" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Label id="Label" prefHeight="30.0" prefWidth="205.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%heightLabel" textFill="#5f634f" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="size" minWidth="200.0" promptText="%heightPrompt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label id="Label" prefHeight="30.0" prefWidth="226.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%weightLabel" textFill="#5f634f" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="weight" minWidth="200.0" promptText="%weightPrompt" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label id="Label" prefHeight="30.0" prefWidth="218.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%pullUpLabel" textFill="#5f634f" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="maxPullUps" minWidth="200.0" prefHeight="28.0" prefWidth="200.0" promptText="%pullUpPrompt" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label id="Label" prefHeight="30.0" prefWidth="218.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%absLabel" textFill="#5f634f" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="maxAbs" minWidth="200.0" prefWidth="200.0" promptText="%absPrompt" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Label id="Label" prefHeight="30.0" prefWidth="218.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%pushUpLabel" textFill="#5f634f" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="maxPumps" minWidth="200.0" promptText="%pushUpPrompt" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Label id="Label" prefHeight="30.0" prefWidth="229.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%kmLabel" textFill="#5f634f" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="maxKmTravelling" minWidth="200.0" promptText="%kmPrompt" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <Label id="Label" prefHeight="30.0" prefWidth="206.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%passwordLabel" textFill="#5f634f" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="password" minHeight="28.0" minWidth="200.0" promptText="%repeatPassLabel" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </PasswordField>
+                  <Label id="Label" prefHeight="30.0" prefWidth="226.0" styleClass="labels" stylesheets="@../styles/lightMode.css" text="%repeatPassLabel" textFill="#5f634f" GridPane.rowIndex="10">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="newPassword" minHeight="28.0" minWidth="200.0" promptText="%repeatPassPrompt" GridPane.columnIndex="1" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </GridPane>
+            <Button fx:id="backHome" layoutX="408.0" layoutY="38.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" text="%backtoMenu" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <HBox layoutX="405.0" layoutY="78.0" prefHeight="300.0" prefWidth="300.0" />
+            <Button fx:id="modifyProfile" layoutX="579.0" layoutY="38.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="105.0" text="%editProfilButton" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Line endX="292.0" layoutX="50.0" layoutY="452.0" startX="37.0" styleClass="line" />
+            <Label fx:id="userWeightUnit" layoutX="394.0" layoutY="210.0" text="kg" styleClass="labels" stylesheets="@../styles/lightMode.css">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userMaxRunUnit" layoutX="393.0" layoutY="347.0" text="km" styleClass="labels" stylesheets="@../styles/lightMode.css">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="userSizeUnit" layoutX="394.0" layoutY="175.0" text="cm" styleClass="labels" stylesheets="@../styles/lightMode.css">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
